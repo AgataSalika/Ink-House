@@ -1,0 +1,21 @@
+<svg width="24.000000" height="24.000000" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<clipPath id="clip4_1129">
+			<rect id="shopping-cart" rx="-0.500000" width="21.000000" height="21.000000" transform="translate(1.500000 1.500000)" fill="white" fill-opacity="0"/>
+		</clipPath>
+		<clipPath id="clip2_676">
+			<rect id="status=hover" rx="-0.500000" width="23.000000" height="23.000000" transform="translate(0.500000 0.500000)" fill="white" fill-opacity="0"/>
+		</clipPath>
+	</defs>
+	<g clip-path="url(#clip2_676)">
+		<rect id="shopping-cart" rx="-0.500000" width="21.000000" height="21.000000" transform="translate(1.500000 1.500000)" fill="#FFFFFF" fill-opacity="0"/>
+		<g clip-path="url(#clip4_1129)">
+			<path id="Vector" d="M9.25 21.16C8.74 21.16 8.33 20.75 8.33 20.24C8.33 19.74 8.74 19.33 9.25 19.33C9.75 19.33 10.16 19.74 10.16 20.24C10.16 20.75 9.75 21.16 9.25 21.16Z" stroke="#598D66" stroke-opacity="1.000000" stroke-width="2.000000" stroke-linejoin="round"/>
+			<path id="Vector" d="M19.33 21.16C18.82 21.16 18.41 20.75 18.41 20.24C18.41 19.74 18.82 19.33 19.33 19.33C19.83 19.33 20.25 19.74 20.25 20.24C20.25 20.75 19.83 21.16 19.33 21.16Z" stroke="#598D66" stroke-opacity="1.000000" stroke-width="2.000000" stroke-linejoin="round"/>
+			<path id="Vector" d="M1.91 1.91L5.58 1.91L8.04 14.19C8.12 14.61 8.35 14.99 8.68 15.26C9.02 15.53 9.44 15.67 9.87 15.66L18.78 15.66C19.21 15.67 19.63 15.53 19.96 15.26C20.3 14.99 20.53 14.61 20.61 14.19L22.08 6.5L6.5 6.5" stroke="#598D66" stroke-opacity="1.000000" stroke-width="2.000000" stroke-linejoin="round" stroke-linecap="round"/>
+		</g>
+	</g>
+</svg>

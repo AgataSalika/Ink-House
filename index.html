@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Реплики картин от Ink. House</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="normalize.css">
+    <script src="https://kit.fontawesome.com/9b9f6eb9ed.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!--=============== FAVICON ===============-->
+    <link rel="shortcut icon" href="/img/favicon_star.png" type="image/x-icon">
+</head>
+
+<body>
+    <!-- HEADER -->
+    <header class="header">
+        <div class="menu">
+            <div class="main__container">
+                <div class="menu__wrapper">
+                    <div class="logo">
+                        <a href="#">
+                            <img src="./img/Logo.svg" alt="logo">
+                        </a>
+                    </div>
+
+                    <nav>
+                        <a href="#">Репродукции</a>
+                        <a href="#">Новинки</a>
+                        <a href="#">О нас</a>
+                    </nav>
+
+                    <div class="cart">
+                        <img src="/img/shopping-cart.svg" class='cart__img'>
+                    </div>
+
+                </div>
+
+                <!-- CLOSE BUTTON-->
+                <div class="nav__close" id="nav-close">
+
+                </div>
+                <!-- TOGGLE BUTTON-->
+                <div class="burger__container">
+                    <button class="burger"></button>
+                </div>
+
+            </div>
+        </div>
+        <div class="header__container">
+            <div class="main__container">
+                <div class="header__flex">
+                    <div class="header__flex_col1">
+                        <img src="/img/header.png">
+                    </div>
+
+                    <div class="header__flex_col2">
+                        <h1 class="header__title">Реплики картин от <span>Ink. House</span></h1>
+                        <h3 class="text header_text">Высокое качество отрисовки на плотной бумаге или льняном холсте.
+                            Редкие
+                            произведения, доступные цены.</h3>
+
+                        <button class="main__button">Продукция</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </header>
+
+    <main>
+        <!-- REPRODUCTIONS-->
+        <section class="reproductions">
+            <div class="main__container">
+                <div class="reproductions__top_flex">
+                    <div class="title">Репродукции</div>
+
+                    <div class="button__flex">
+                        <button class="button__reprod" id="france">Франция</button>
+                        <button class="button__reprod" id="germany">Германия</button>
+                        <button class="button__reprod" id="england">Англия</button>
+                    </div>
+                </div>
+
+
+                <div class="reproductions__bottom_flex">
+                    <!-- <div class="reproductions_card">
+                        <img src="/img/rep_01.jpeg">
+                        <div class="rep__micro">Марсель Руссо</div>
+                        <div class="rep__title">Охота Амура</div>
+                        <div class="rep__description">Холст, масло (50х80)</div>
+                        <div class="rep__price">14 500 руб</div>
+                        <button class="rep__button">В корзину</button>
+                    </div>
+
+                    <div class="reproductions_card">
+                        <img src="/img/rep_02.jpeg">
+                        <div class="rep__micro">Анри Селин</div>
+                        <div class="rep__title">Дама с собачкой</div>
+                        <div class="rep__description">Акрил, бумага (50х80)</div>
+                        <div class="rep__price">16 500 руб</div>
+                        <button class="rep__button">В корзину</button>
+                    </div> -->
+
+                    <!-- <div class="reproductions_card">
+                        <img src="/img/rep_03.jpeg">
+                        <div class="rep__micro">Франсуа Дюпон</div>
+                        <div class="rep__title">Процедура</div>
+                        <div class="rep__description">Цветная литография (40х60)</div>
+                        <div class="rep__price">20 000 руб</div>
+                        <button class="rep__button">В корзину</button>
+                    </div>
+
+                    <div class="reproductions_card">
+                        <img src="/img/rep_04.jpeg">
+                        <div class="rep__micro">Луи Детуш</div>
+                        <div class="rep__title">Роза</div>
+                        <div class="rep__description">Бумага, акрил (50х80)</div>
+                        <div class="rep__price">12 000 руб</div>
+                        <button class="rep__button">В корзину</button>
+                    </div> -->
+
+                    <!-- <div class="reproductions_card">
+                        <img src="/img/rep_05.jpeg">
+                        <div class="rep__micro">Франсуа Дюпон</div>
+                        <div class="rep__title">Птичья трапеза</div>
+                        <div class="rep__description">Цветная литография (40х60)</div>
+                        <div class="rep__price">22 500 руб</div>
+                        <button class="rep__button">В корзину</button>
+                    </div>
+
+                    <div class="reproductions_card">
+                        <img src="/img/rep_06.jpeg">
+                        <div class="rep__micro">Пьер Моранж</div>
+                        <div class="rep__title">Пейзаж с рыбой</div>
+                        <div class="rep__description">Цветная литография (40х60)</div>
+                        <div class="rep__price">20 000 руб</div>
+                        <button class="rep__button">В корзину</button>
+                    </div> -->
+                </div>
+
+            </div>
+        </section>
+        <!-- NEW -->
+        <section class="new">
+            <div class="main__container">
+                <div class="new__flex">
+                    <div class="star">
+                        <img src="/img/Star 2.png">
+                    </div>
+
+                    <div class="title new_title">Новая коллекция <br> французских авторов</div>
+
+                </div>
+
+                <div class="text new_text">Сложно сказать, почему акционеры крупнейших компаний призывают нас к новым
+                    свершениям,
+                    которые, в свою очередь, должны быть заблокированы в рамках своих собственных рациональных
+                    ограничений.
+                </div>
+                <div class="text new_text">
+                    Принимая во внимание показатели успешности, граница обучения кадров предопределяет высокую
+                    востребованность направлений прогрессивного развития.
+                </div>
+
+
+                <button class="second__button">Ознакомиться</button>
+            </div>
+        </section>
+        <!-- TEAM -->
+        <section class="team">
+            <div class="main__container">
+                <div class="team__flex">
+                    <div class="team__flex_col1">
+                        <img src="/img/team1.png">
+                    </div>
+                    <div class="team__flex_col2">
+                        <div class="title">Наша команда</div>
+                        <div class="team_text">Значимость этих проблем настолько очевидна, что базовый вектор развития
+                            позволяет оценить значение экспериментов, поражающих по своей масштабности и грандиозности.
+                            Мы вынуждены отталкиваться от того, что консультация с широким активом.</div>
+                        <div class="col2_flex">
+                            <img src="/img/team2.png">
+                            <img src="/img/team3.jpeg">
+                            <img src="/img/team4.jpeg">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+    <!-- FOOTER -->
+    <footer>
+        <div class="main__container">
+            <div class="footer__flex">
+                <div class="footer_col1">
+                    <div class="footer_logo">
+                        <img src="/img/Logo.svg">
+                    </div>
+                    <div class="footer__tel_wrapper">
+                        <a class="footer_col1_tel" href=»tel:+7(999)5435454″>+7 (999) 543-54-54</a>
+                        <p class="footer_col1_text">Мастерская</p>
+                    </div>
+
+                </div>
+
+                <div class="footer_microflex">
+                    <div class="footer_microflex_col1">
+                        <div class="footer_microflex_title">Репродукции</div>
+                        <p class="footer_microflex_text">Франция</p>
+                        <p class="footer_microflex_text">Германия</p>
+                        <p class="footer_microflex_text">Англия</p>
+                    </div>
+                    <div class="footer_microflex_col2">
+                        <div class="footer_microflex_title">Новинки</div>
+                        <p class="footer_microflex_text">2023</p>
+                        <p class="footer_microflex_text">2024</p>
+                    </div>
+
+                    <div class="footer_microflex_col3">
+                        <div class="footer_microflex_title">О нас</div>
+                        <p class="footer_microflex_text">Художники</p>
+                        <p class="footer_microflex_text">Менеджеры</p>
+                    </div>
+
+                </div>
+
+                <div class="footer_col3">
+                    <div class="social_flex">
+                        <img src="/img/footer_1.svg">
+                        <img src="/img/footer_2.svg">
+                        <img src="/img/footer_3.svg">
+                    </div>
+                    <div class="footer_copywright">
+                        Ink. House ®
+                    </div>
+                    <div class="footer_copywright">
+                        All rights reserved
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- BURGER MENU -->
+    <div class="burgerMenu__container hidden">
+        <div class="burgerMenu__content">
+            <div class="logo__modal">
+                <a href="#">
+                    <img src="./img/Logo.svg" alt="logo">
+                </a>
+            </div>
+
+            <nav class="burger__nav">
+
+                <a href="#">Репродукции</a>
+                <a href="#">Новинки</a>
+                <a href="#">О нас</a>
+
+            </nav>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+
+
+</html>
