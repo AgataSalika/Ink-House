@@ -108,7 +108,7 @@ function getCards(arr) {
     let html =
       `
   <div class="reproductions_card">
-    <img src="/img/${arr[i].url}">
+    <img src="img/${arr[i].url}">
       <div class="rep__micro">${arr[i].author}</div>
       <div class="rep__title">${arr[i].title}</div>
       <div class="rep__description">${arr[i].description}</div>
