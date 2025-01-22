@@ -254,7 +254,7 @@ nav a:active {
 
 /*===============NEW===============*/
 .new {
-    background: url(/img/pic_background.png) center/cover no-repeat;
+    background: url(img/pic_background.png) center/cover no-repeat;
     margin-bottom: 70px;
     padding: 70px 15px 70px 15px;
 }
